@@ -78,6 +78,9 @@ ul.homepage-post-list li p {
 	margin: 5px 0px 5px 0px;
 	clear: both;
 }
+ul.homepage-post-list li ul li {
+	margin-left: 30px;
+}
 /*****************************************************************************/
 /*
 /* Site
