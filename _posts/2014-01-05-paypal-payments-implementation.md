@@ -4,6 +4,7 @@ author: Josef
 ---
 
 Together with Jakapun, we have implemented and tested payments. We will support:
+
 * payments with Paypal account => login to PayPal in app
 * payments with credit card through PayPal
   * for USD and AUD
