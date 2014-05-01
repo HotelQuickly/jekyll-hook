@@ -1,5 +1,5 @@
 ---
-title:  Event tracking
+title:  New event tracking
 author: michal
 ---
 
