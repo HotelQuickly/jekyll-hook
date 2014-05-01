@@ -6,7 +6,7 @@ title: News @ HotelQuickly
 <div id="home">
   <ul class="posts homepage-post-list">
     {% for post in site.posts %}
-    	<li>
+    	<li class="post-list-item">
     		<h2>{{ post.title }}</h2>
       		<div class="authored">{{ post.date | date_to_string }} by {{ post.author }}</div>
       		<p>{{ post.content }}</p>
