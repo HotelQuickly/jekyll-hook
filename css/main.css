@@ -48,6 +48,7 @@ a:visited { color: #a0a; }
 
 .posts li {
   line-height: 1.60em;
+  margin-bottom: 30px;
 }
 
 .posts div.authored {
