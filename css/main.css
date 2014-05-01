@@ -1,8 +1,8 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
+/****************************************************************************
+ *
+ * Common
+ *
+ *****************************************************************************/
 
 /* Global Reset */
 * {
@@ -22,7 +22,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+h1 {
+	margin-bottom: 1em;
+	font-size: 180%;
+}
+h2 {
+	margin-bottom: 1em;
+	font-size: 140%;
+}
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -43,12 +50,33 @@ a:visited { color: #a0a; }
   line-height: 1.75em;
 }
 
-.posts span {
+.posts div.authored {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
 }
-
+.posts h2 {
+	margin-bottom: 0.3em;
+	line-height: 1.5em;
+}
+.posts h2 a {
+	color: #888;
+	text-decoration: none;
+}
+.posts h2 a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+ul.homepage-post-list li h2 {
+	font-size: 14px;
+	float: left;
+}
+ul.homepage-post-list li div.authored {
+	font-size: 14px;
+	float: right;
+}
+ul.homepage-post-list li p {
+	margin: 5px 0px 5px 0px;
+	clear: both;
+}
 /*****************************************************************************/
 /*
 /* Site
@@ -56,13 +84,19 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 100%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
 
+.header {
+  margin-bottom: 2em;
+}
+.header strong.title {
+  font-size: 200%;
+}
 .header a {
   font-weight: bold;
   text-decoration: none;
@@ -70,11 +104,11 @@ a:visited { color: #a0a; }
 
 .title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 }
 
 .title a {
-  color: #a00;
+  color: #2f587f !important;
 }
 
 .title a:hover {
@@ -105,6 +139,15 @@ a:visited { color: #a0a; }
 .footer .contact {
   float: left;
   margin-right: 3em;
+}
+
+.footer .signup {
+  width: 40%;
+  float: left;
+  margin-right: 3em;
+}
+.footer .signup input {
+	width: 40%;
 }
 
 .footer .contact a {
@@ -157,4 +200,8 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.post p img {
+	max-width: 300px;
 }
