@@ -1,0 +1,8 @@
+name: 		 Engineering @ HotelQuickly
+description: Technology and IT Blog of HotelQuickly
+url:		 http://engineering.hotelquickly.com
+markdown:    redcarpet
+pygments:	 true
+timezone:    Asia/Bangkok
+permalink:	 pretty
+paginate:	 5

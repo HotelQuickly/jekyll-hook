@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+        <!-- Page title -->
+        <title>
+	    	{% if page.title %}
+		    	{{ page.title }} &middot;
+	    	{% endif %}
+	    	Engineering @ HotelQuickly
+		</title>
+
+	    <!-- RSS -->
+	    <link rel="alternate" type="application/rss+xml" title="RSS for HotelQuickly Engineering Blog" href="/feed.xml">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+		<!-- Icons -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/ico/">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/public/ico/">
+		  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/public/ico/">
+		                <link rel="apple-touch-icon-precomposed" href="/public/ico/">
+		                               <link rel="shortcut icon" href="/public/ico/">
+
+    </head>
+    
+    <body>
+
+        <div class="site">
+			
+			{% include header.html %}
+
+        	{{ content }}
+
+			{% include footer.html %}
+
+        </div> <!-- /close site -->
+
+    </body>
+</html>
