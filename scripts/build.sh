@@ -25,5 +25,6 @@ cd -
 
 # Run jekyll
 cd $source
-jekyll $source $build --no-server --no-auto
+# deprecated - jekyll $source $build --no-server --no-auto
+jekyll build --source $source --destination $build
 cd -
