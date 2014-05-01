@@ -1,0 +1,16 @@
+---
+layout: default
+title: Your New Jekyll Site test
+---
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+    	<li>
+    		<h2><a href="{{ post.url }}">{{ post.title }}</a> <br /></h2>
+      		<span>{{ post.date | date_to_string }}</span> &raquo;  <span>by {{ post.author }}</span>
+      		<p>{{ post.excerpt }}</p>
+     	</li>
+    {% endfor %}
+  </ul>
+</div>
