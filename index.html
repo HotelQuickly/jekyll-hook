@@ -8,7 +8,7 @@ title: News @ HotelQuickly
     {% for post in site.posts %}
     	<li>
     		<h2>{{ post.title }}</h2>
-      		<div class="authored">{{ post.date | date_to_string }} &raquo; by {{ post.author }}</div>
+      		<div class="authored">{{ post.date | date_to_string }} by {{ post.author }}</div>
       		<p>{{ post.content }}</p>
      	</li>
     {% endfor %}
