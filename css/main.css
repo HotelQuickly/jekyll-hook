@@ -96,7 +96,9 @@ ul.homepage-post-list li ul li {
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
-
+.site img {
+	max-width: 42em;
+}
 .header {
   margin-bottom: 2em;
 }
