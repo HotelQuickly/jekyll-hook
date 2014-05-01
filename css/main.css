@@ -98,21 +98,31 @@ ul.homepage-post-list li.post-list-item {
   font-size: 100%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  margin: 1em auto 2em;
   line-height: 1.5em;
 }
 .site img {
 	max-width: 42em;
 }
 .header {
+  padding-top: 20px;
   margin-bottom: 2em;
 }
 .header strong.title {
   font-size: 200%;
+  padding-top: 20px;
 }
 .header a {
   font-weight: bold;
   text-decoration: none;
+}
+.header a.addNew {
+	float: right;
+	opacity: 0;
+	padding: 20px 0px 20px 200px;
+}
+.header a.addNew:hover {
+	opacity: 1;
 }
 
 .title {
