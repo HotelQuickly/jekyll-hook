@@ -36,6 +36,16 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
+blockquote {
+	border-left: 4px solid #DDD;
+	padding: 0 15px;
+	color: #777;
+	text-shadow: none;
+}
+blockquote p {
+	margin-bottom: 10px;
+}
+
 /*****************************************************************************/
 /*
 /* Home
