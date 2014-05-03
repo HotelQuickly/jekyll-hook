@@ -3,7 +3,7 @@ title:  Architecture overview
 author: michal
 ---
 
-Wanna see which technologies and services we use to build the final product?
+Wanna see which technologies and services do we use to build the final product?
 
 Check this architecture overview:
 
