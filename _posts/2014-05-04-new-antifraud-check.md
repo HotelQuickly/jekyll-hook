@@ -1,5 +1,5 @@
 ---
-title: New anti-fraud detection check: Name
+title: New anti-fraud detection check
 author: michal
 ---
 
