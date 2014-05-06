@@ -1,3 +1,8 @@
+---
+title:  Paypal credit card payments ready to go
+author: Josef Nevoral
+---
+
 Paypal credit card payments tested and ready to go!
 
 ![Payment](https://dl.dropbox.com/s/sieveay7210od8h/Screenshot%202014-05-06%2015.43.36.png)
