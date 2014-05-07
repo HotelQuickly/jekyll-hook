@@ -26,5 +26,5 @@ cd -
 # Run jekyll
 cd $source
 # deprecated - jekyll $source $build --no-server --no-auto
-jekyll build --source $source --destination $build
+jekyll build --source $source --destination $build >> /srv/nodejs/jekyll-hook/log/build.log
 cd -
