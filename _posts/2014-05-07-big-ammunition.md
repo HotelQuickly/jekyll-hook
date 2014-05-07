@@ -7,4 +7,4 @@ Chris (the designer) is using big ammunition to persuade us about the importance
 
 ![Discussion with Chris](https://dl.dropbox.com/s/b2dpnzehtp82pt2/Screenshot%202014-05-07%2016.19.04.png)
 
-* Email published with his approval *
+*Email published with Chris' approval*
