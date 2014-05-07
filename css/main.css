@@ -113,6 +113,7 @@ ul.homepage-post-list li.post-list-item {
 }
 .site img {
 	max-width: 42em;
+	padding: 5px;
 	border: 1px solid #bbb;
 	-webkit-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.30);
 	-moz-box-shadow:    2px 2px 3px 0px rgba(50, 50, 50, 0.30);
