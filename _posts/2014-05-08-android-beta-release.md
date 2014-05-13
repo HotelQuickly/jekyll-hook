@@ -4,10 +4,12 @@ author: Jim
 ---
 
 ## v2.6.1011
+
 - new getting started screen
 - new payment process (3 steps + paypal)
 
 ### what to do if you want to help us test
+
 - uninstall and install to see if there are new nice screen and you're able to register, login, FB login
 - you're loggedin then logout you should see these screen again
 - should be able to logout from any screen now
