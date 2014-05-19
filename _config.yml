@@ -1,3 +1,5 @@
 name: IT News
 markdown: redcarpet
 pygments: true
+paginate: 1
+limit_posts: 20
