@@ -11,4 +11,4 @@ You can [download it here](https://rink.hockeyapp.net/apps/c41c50b1b4b8ebccacc3e
 * new design for filter on Hotel list
 * various bugfixes and improvements based on user testing
 
-PS: New translations are not included in this build (I’ve got some problem with export, and have final call for my flight :-)
+PS: New translations are not included in this build (I've got some problem with export, and have final call for my flight :-)
