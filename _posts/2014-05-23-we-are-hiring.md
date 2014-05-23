@@ -10,4 +10,4 @@ Just finalized a new [We are hiring](https://github.com/HotelQuickly/WeAreHiring
 * 10 reasons why to join us
 * photo gallery
 
-Check it out here: https://github.com/HotelQuickly/WeAreHiring
+Check it out here: [https://github.com/HotelQuickly/WeAreHiring](https://github.com/HotelQuickly/WeAreHiring)
