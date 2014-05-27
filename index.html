@@ -26,7 +26,7 @@ title: IT News
 		    {% if page == paginator.page %}
 		      <span class="text-muted">{{ page }}</span>
 		    {% elsif page == 1 %}
-		      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: ':9914', '' | append: '/' }}">{{ page }}</a>
+		      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: ':9914', ''}}">{{ page }}</a>
 		    {% else %}
 		      <a href="{{ site.paginate_path | replace: ':num', page | prepend: site.baseurl | replace: '//', '/' | replace: ':9914', '' | append: '/' }}">{{ page }}</a>
 		    {% endif %}
