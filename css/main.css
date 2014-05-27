@@ -45,6 +45,9 @@ blockquote {
 blockquote p {
 	margin-bottom: 10px;
 }
+.text-muted {
+	color: #888;
+}
 
 /*****************************************************************************/
 /*
@@ -243,4 +246,25 @@ ul.homepage-post-list li.post-list-item {
 
 .post p img {
 	max-width: 300px;
+}
+
+/*****************************************************************************/
+/*
+/* Pagination
+/*
+/*****************************************************************************/
+
+.pagination-wrapper {
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+.pagination {
+	border-top: 1px solid #aaa;
+	margin: 0px auto;
+	font-size: 200%;
+	padding: 40px;
+}
+.pagination * {
+	padding: 0px 10px;
 }
