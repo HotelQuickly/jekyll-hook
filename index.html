@@ -17,7 +17,7 @@ title: IT News
 	<div class="pagination-wrapper">
 		<div class="pagination">
 		  {% if paginator.previous_page %}
-		    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+		    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: ':9914', '' }}">&laquo; Prev</a>
 		  {% else %}
 		    <span class="previous">&laquo; Previous</span>
 		  {% endif %}
@@ -26,14 +26,14 @@ title: IT News
 		    {% if page == paginator.page %}
 		      <span class="text-muted">{{ page }}</span>
 		    {% elsif page == 1 %}
-		      <a href="/{{ '/index.html' }}">{{ page }}</a>
+		      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: ':9914', '' }}">{{ page }}</a>
 		    {% else %}
-		      <a href="/{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
+		      <a href="{{ site.paginate_path | replace: ':num', page | prepend: site.baseurl | replace: '//', '/' | replace: ':9914', '' }}">{{ page }}</a>
 		    {% endif %}
 		  {% endfor %}
 
 		  {% if paginator.next_page %}
-		    <a href="/{{ paginator.next_page_path }}">Next &raquo;</a>
+		    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | replace: ':9914', '' }}">Next &raquo;</a>
 		  {% else %}
 		    <span class="next ">Next &raquo;</span>
 		  {% endif %}
