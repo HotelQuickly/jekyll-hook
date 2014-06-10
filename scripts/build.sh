@@ -19,6 +19,7 @@ fi
 
 # Git checkout appropriate branch, pull latest code
 cd $source
+git remote add origin git@github.com:HotelQuickly/jekyll-hook.git
 git checkout $branch
 git checkout -- .
 git pull origin $branch
